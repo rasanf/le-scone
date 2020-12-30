@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Le Scone</title>
+    <meta name="description" content="Le Scone - Restaurante" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main class="container intro">
+      <div class="grid-5">
+        <img class="logo" src="img/lescone.png" alt="Le Scone" />
+        <div class="intro-info">
+          <p>
+            De Seg. à Sab.<span class="aberto"></span><br />
+            das 07:00h às 18:00h
+          </p>
+          <p>
+            Praia de Botafogo, 300<br />
+            Rio de Janeiro - RJ
+          </p>
+        </div>
+        <p class="intro-telefone">+55 021 2412-3333</p>
+      </div>
+
+      <div class="grid-7">
+        <img class="intro-foto" src="img/foto.jpg" alt="Loja Le Scone" />
+      </div>
+    </main>
+
+    <section class="container menu">
+      <h1 class="grid-4 titulo">Menu</h1>
+      <div class="grid-7 offset-1">
+        <div class="menu-item">
+          <img src="img/prato-1.jpg" alt="Foto Prato 1" />
+          <h2>Entradas</h2>
+          <ul>
+            <li><span>R$1,70</span>Grãomelete</li>
+            <li><span>R$3,20</span>Scones de frutas</li>
+            <li><span>R$4,50</span>Pão de batata doce</li>
+            <li><span>R$5,70</span>Muffin de abóbora</li>
+            <li><span>R$3,80</span>Coxinha de brócolis</li>
+          </ul>
+        </div>
+
+        <div class="menu-item">
+          <img src="img/prato-2.jpg" alt="Foto Prato 2" />
+          <h2>Pratos Principais</h2>
+          <ul>
+            <li><span>R$10,70</span>Penne ao pesto</li>
+            <li><span>R$22,00</span>Feijoada vegana</li>
+            <li><span>R$33,50</span>Quibe de lentilha</li>
+            <li><span>R$14,90</span>Cogumelos refogados</li>
+            <li><span>R$10,30</span>Escondidinho de jaca</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contato">
+      <h1 class="grid-4 titulo">Contato</h1>
+      <div class="grid-7 offset-1">
+        <form action="" method="POST">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" required />
+
+          <div class="row">
+            <div class="grid-7">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="grid-5">
+              <label for="telefone">Telefone</label>
+              <input type="text" name="telefone" id="telefone" required />
+            </div>
+          </div>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" required></textarea>
+
+          <input class="button" type="button" value="Enviar" />
+        </form>
+
+        <div class="contato-info">
+          <p>contato@lescone.com ////</p>
+          <p>+55 021 2412-3333 ////</p>
+        </div>
+
+        <a href="#" class="contato-mapa">
+          <img src="img/map.jpg" alt="Endereço Le Scone" />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="grid-9">
+          Le Scone © 1989 - 2016. Alguns direitos reservados.
+        </p>
+        <a class="grid-3" href="#">
+          <img src="img/lescone-icone.png" alt="Ícone Le Scone" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
