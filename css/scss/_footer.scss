@@ -1,0 +1,22 @@
+footer {
+  padding: 15px 0;
+  background: $marrom;
+  @include box-shadow(0 0 0 10px $marrom);
+  p {
+    color: $bege-claro;
+    @include device(s) {
+      text-align: center;
+      font-size: 1em;
+    }
+  }
+  a img {
+    float: right;
+    @include device(m) {
+      margin-top: 18px;
+    }
+    @include device(s) {
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}

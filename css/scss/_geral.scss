@@ -1,0 +1,38 @@
+body {
+  background: $bege-claro;
+  border: 10px solid $bege-medio;
+  color: $marrom;
+
+  @include device(s) {
+    border: none;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  @include type-1(18);
+}
+
+.titulo {
+  @include type-1(18);
+  text-transform: uppercase;
+  @include device(s) {
+    margin-bottom: 40px;
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 2px;
+    float: right;
+    background: $marrom;
+    margin-top: 14px;
+    @include device(m) {
+      width: 60%;
+    }
+  }
+}
