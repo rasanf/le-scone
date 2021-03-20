@@ -37,10 +37,10 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 ## :point_right: Como executar o projeto
 ```
 - Clone o repositório:
-$ git clone https://github.com/rasanf/lescone-origamid.git
+$ git clone https://github.com/rasanf/le-scone.git
 
 - Entre no diretório:
-$ cd lescone-origamid
+$ cd le-scone
 ```
 
 <a id="licenca"></a>
